@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lula-assistant-autogen"
+version = "0.1.0"
+description = ""
+authors = ["Megan Wolf <megan@defenseunicorns.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+python-dotenv = "^1.0.1"
+pyautogen = "^0.2.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
